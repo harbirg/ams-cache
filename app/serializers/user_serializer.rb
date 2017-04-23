@@ -1,5 +1,5 @@
 class UserSerializer < AbstractSerializer
-  cache key: 'moco'
+  #cache key: 'moco'
   attributes :first_name, :last_name
 
   has_many :memberships

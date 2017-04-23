@@ -12,8 +12,11 @@ gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
-gem 'redis'
-gem 'redis-rails'
+#Caching - Switching over to Memcached from Redis 
+#gem 'redis'
+#gem 'redis-rails'
+gem 'dalli'
+
 gem 'active_model_serializers', '~> 0.10'
 
 group :development, :test do
